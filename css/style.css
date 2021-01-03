@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+h2{
+    font-family: 'Pacifico', cursive;
+}
+
+.carousel-item {
+    height: 500px;
+  }
+  
+  .item, img{
+      position: absolute;
+      object-fit:cover;
+      height: 100% !important;
+      width:  100% !important;
+      /*min-height: 500px;*/
+  }
+
+  .container-fluid{
+
+    padding: 0;
+    background-color: #fdcfdf;
+  }
+  .myNav{
+      background-color: #bce6eb !important;
+      height: 4rem;
+  }
